@@ -116,7 +116,7 @@ class OptionsScreen extends StatelessWidget {
 
             const Spacer(),
 
-            // Info Versi Aplikasi
+            // Credit Kelompok
             Center(
               child: Container(
                 padding: const EdgeInsets.symmetric(
@@ -128,11 +128,11 @@ class OptionsScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
-                  'PlantKnow v1.0.0 • AI Botanical Scanner',
+                  'Made By Kelompok 19 TA1 2026',
                   style: GoogleFonts.poppins(
                     fontSize: 12,
-                    fontWeight: FontWeight.w500,
-                    color: Colors.black54,
+                    fontWeight: FontWeight.w600,
+                    color: const Color(0xFF1B4332),
                   ),
                 ),
               ),
@@ -313,7 +313,7 @@ class AboutPlantKnowPage extends StatelessWidget {
 
                 const SizedBox(height: 24),
 
-                _SectionBlock(
+                const _SectionBlock(
                   title: 'Mengapa PlantKnow Hadir?',
                   body:
                       'Banyak dari kita sering melewati berbagai jenis bunga dan tanaman di sekitar rumah, taman, maupun pinggir jalan tanpa mengetahui nama serta karakteristiknya. PlantKnow hadir untuk menjembatani rasa ingin tahu tersebut dengan cara yang praktis, cepat, dan edukatif langsung dari genggaman Anda.',
@@ -321,7 +321,7 @@ class AboutPlantKnowPage extends StatelessWidget {
 
                 const SizedBox(height: 18),
 
-                _SectionBlock(
+                const _SectionBlock(
                   title: 'Cara Kerja Aplikasi',
                   body:
                       'Arahkan kamera ke bunga di sekitar Anda atau unggah foto dari galeri. Sistem klasifikasi citra pada PlantKnow akan menganalisis karakteristik visual bunga untuk menampilkan identitas spesies, nama ilmiah, ringkasan perawatan, serta daftar bunga serupa beserta skor kemiripannya.',
@@ -339,17 +339,17 @@ class AboutPlantKnowPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
 
-                _GoalCard(
+                const _GoalCard(
                   badgeText: '01',
-                  badgeColor: const Color(0xFFC62828),
+                  badgeColor: Color(0xFFC62828),
                   title: 'Edukasi Botani Mudah',
                   description:
                       'Membantu pelajar, mahasiswa, dan masyarakat umum mengenal keanekaragaman flora secara interaktif.',
                 ),
                 const SizedBox(height: 10),
-                _GoalCard(
+                const _GoalCard(
                   badgeText: '02',
-                  badgeColor: const Color(0xFF2E7D32),
+                  badgeColor: Color(0xFF2E7D32),
                   title: 'Kepedulian Lingkungan',
                   description:
                       'Menumbuhkan rasa cinta dan kepedulian terhadap kelestarian tanaman serta ekosistem hijau di sekitar kita.',
@@ -357,7 +357,7 @@ class AboutPlantKnowPage extends StatelessWidget {
 
                 const SizedBox(height: 18),
 
-                // Kartu Informasi Teknologi
+                // Kartu Credit Pengembang
                 Container(
                   padding: const EdgeInsets.all(14),
                   decoration: BoxDecoration(
@@ -371,7 +371,7 @@ class AboutPlantKnowPage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Icon(
-                        Icons.eco_rounded,
+                        Icons.groups_rounded,
                         color: Color(0xFF2E7D32),
                         size: 24,
                       ),
@@ -381,7 +381,7 @@ class AboutPlantKnowPage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Dibangun dengan Flutter',
+                              'Made By Kelompok 19 TA1 2026',
                               style: GoogleFonts.poppins(
                                 fontSize: 13.5,
                                 fontWeight: FontWeight.w700,
