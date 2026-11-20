@@ -1,4 +1,4 @@
-# flutter_application_1
+# Flower Scan APK
 
 A new Flutter project.
 
