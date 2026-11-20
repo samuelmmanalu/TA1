@@ -117,11 +117,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
 
-                const Spacer(flex: 2),
+                const Spacer(flex: 1),
 
-                // 2. Hero Text Section yang Proporsional
+                // 2. Hero Text Section
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 22),
+                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
                   decoration: BoxDecoration(
                     color: Colors.white.withValues(alpha: 0.78),
                     borderRadius: BorderRadius.circular(24),
@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                       ),
-                      const SizedBox(height: 12),
+                      const SizedBox(height: 10),
                       Text(
                         'Kenali Yang Tumbuh\ndi Sekitarmu',
                         textAlign: TextAlign.center,
@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           height: 1.25,
                         ),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(height: 8),
                       Text(
                         'Mulailah memindai tanaman terdekat Anda untuk mengetahui nama, jenis latin, dan perawatannya.',
                         textAlign: TextAlign.center,
@@ -176,7 +176,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
 
-                const Spacer(flex: 2),
+                // Jarak rapat agar tombol naik ke atas
+                const SizedBox(height: 18),
 
                 // 3. Dua Tombol Aksi Utama (Scan Camera & Upload)
                 Row(
@@ -203,7 +204,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
 
-                const Spacer(flex: 2),
+                // Jarak rapat agar banner kuning ikut naik ke atas
+                const SizedBox(height: 16),
 
                 // 4. Banner Tips Cahaya Alami
                 Container(
@@ -254,7 +256,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                 ),
-                const SizedBox(height: 8),
+
+                // Ruang kosong dipindahkan ke bagian bawah agar susunan naik ke atas
+                const Spacer(flex: 2),
               ],
             ),
           ),
