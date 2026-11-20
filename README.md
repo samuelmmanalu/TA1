@@ -2,11 +2,15 @@
 
 A new Flutter project.
 
-## 📱 Download Aplikasi Android
+> [!NOTE]
+> **Status Aplikasi: Versi Demo / Prototipe (v1.0.1)**
+> Aplikasi ini masih dalam tahap pengembangan untuk keperluan Tugas Akhir. Fitur utama seperti **scan klasifikasi bunga masih menggunakan data simulasi (*dummy*)** dan belum terhubung sepenuhnya dengan model AI *real-time*.
 
-Klik tautan di bawah ini untuk langsung mengunduh dan mencoba aplikasi **PlantKnow**:
+## 📱 Download Aplikasi (Versi Demo)
 
-👉 **[Download PlantKnow v1.0.1 (.apk)](https://github.com)**
+Klik tautan di bawah ini untuk mencoba prototipe aplikasi **PlantKnow**:
+
+👉 **[Download PlantKnow Demo v1.0.1 (.apk)](https://github.com)**
 
 ## Getting Started
 
