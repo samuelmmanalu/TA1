@@ -4,6 +4,7 @@ import 'app_background.dart';
 import 'home_screen.dart';
 import 'camera_screen.dart';
 import 'history_screen.dart';
+import 'options_screen.dart';
 
 class MainScreen extends StatefulWidget {
   final int initialIndex;
@@ -34,6 +35,7 @@ class _MainScreenState extends State<MainScreen> {
       HomeScreen(onOpenCameraTab: () => _onItemTapped(1)),
       CameraScreen(onCloseToHome: () => _onItemTapped(0)),
       const HistoryScreen(),
+      const OptionsScreen(),
     ];
 
     return AppBackground(
@@ -57,6 +59,7 @@ class _MainScreenState extends State<MainScreen> {
           child: BottomNavigationBar(
             currentIndex: _selectedIndex,
             onTap: _onItemTapped,
+            type: BottomNavigationBarType.fixed,
             backgroundColor: Colors.transparent,
             elevation: 0,
             selectedItemColor: const Color(0xFF2E7D32),
@@ -83,6 +86,10 @@ class _MainScreenState extends State<MainScreen> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.history_rounded),
                 label: 'Riwayat',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.menu_rounded),
+                label: 'Opsi',
               ),
             ],
           ),
