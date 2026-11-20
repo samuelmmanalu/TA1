@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## 📱 Download Aplikasi Android
+
+Klik tautan di bawah ini untuk langsung mengunduh dan mencoba aplikasi **PlantKnow**:
+
+👉 **[Download PlantKnow v1.0.1 (.apk)](https://github.com)**
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
