@@ -1,4 +1,4 @@
-# Plutar Pluter
+# Flower Scan APK
 
 A new Flutter project.
 
